@@ -2,10 +2,10 @@ import com.sun.org.apache.xpath.internal.operations.Bool
 import java.io.File
 
 fun main(args: Array<String>) {
-    day1Star("src/day1.txt")
+    part2("src/day1.txt")
 }
 
-fun day1 (fileName: String) {
+fun part1 (fileName: String) {
 
     var result: Int = 0
 
@@ -19,7 +19,7 @@ fun day1 (fileName: String) {
     println("the result is $result")
 }
 
-fun day1Star (fileName: String) {
+fun part2 (fileName: String) {
 
     var result: Int = 0
     var set: MutableSet<Int> = mutableSetOf()
