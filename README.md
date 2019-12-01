@@ -1,3 +1,3 @@
-# AoC18-kotlin
+# AoC19-Python
 
-Advent of Code 2018 written in Kotlin
+Advent of Code 2019 written in Python
